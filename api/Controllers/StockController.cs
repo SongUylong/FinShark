@@ -17,6 +17,8 @@ namespace api.Controllers
   [ApiController]
   public class StockController : ControllerBase
   {
+    //Yes, exactly! By storing the repository instance in a field like this:
+
     private readonly ApplicationDBContext _context;
     private readonly IStockRepository _stockRepo;
     public StockController(ApplicationDBContext context, IStockRepository stockRepo)
