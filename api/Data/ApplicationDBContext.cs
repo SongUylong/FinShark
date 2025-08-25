@@ -16,7 +16,7 @@ namespace api.Data
       //pass to actual DbContext
     }
 
-    public DbSet<Stock> Stock { get; set; }
+    public DbSet<Stock> Stocks { get; set; }
     // I want a table for Stock and I want to query/manipulate it
     public DbSet<Comment> Comments { get; set; }
   }

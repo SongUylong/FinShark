@@ -4,6 +4,13 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 using api.Models;
+// docker run -e "ACCEPT_EULA=Y" `
+//            -e "MSSQL_SA_PASSWORD=P@ssword123!" `
+//            -e "MSSQL_PID=Developer" `
+//            -p 1433:1433 `
+//            -v mssql_data:/var/opt/mssql `
+//            --name mssql2022 `
+//            -d mcr.microsoft.com/mssql/server:2022-latest
 
 namespace api.Model
 {
